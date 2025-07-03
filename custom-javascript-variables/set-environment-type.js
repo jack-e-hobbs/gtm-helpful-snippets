@@ -1,3 +1,4 @@
+// Name this variable {{JS - Environment Type}}
 function() {
   // Define an array of production domains.
   // Add all your exact production domains to this array.
