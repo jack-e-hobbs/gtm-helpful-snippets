@@ -4,7 +4,7 @@ function() {
   // Add all your exact production domains to this array.
   // It's good practice to list both 'www' and non-'www' versions if both are production.
   // Ensure all entries here are in lowercase for consistent matching.
-  // Use GTM preview mode on your website to see how GTM returns your domain in the out of the box {{Page Hostname}} variable
+  // Use GTM preview mode on your website to see how GTM returns your domain in the out of the box "Page Hostname" variable
   var productionDomains = [
     "www.mydomain.com.au",
     "mydomain.com.au",
