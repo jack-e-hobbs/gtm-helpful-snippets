@@ -16,7 +16,7 @@ function() {
   var currentHostname = {{Page Hostname}}.toLowerCase();
 
   // Check if the current hostname is present in the array of production domains.
-  // The .some() method iterates and returns true if at least one domain matches exactly.
+  // The .some() method iterates and returns true if at least one domain in the productionDomains array matches exactly.
   var isProduction = productionDomains.some(function(domain) {
     return currentHostname === domain.toLowerCase(); // Ensure domain from array is also lowercase
   });
