@@ -20,10 +20,10 @@ function() {
     return currentHostname === domain.toLowerCase(); // Ensure domain from array is also lowercase
   });
 
-  // Return "Prod" if it's a production domain, otherwise return "Non-Prod".
+  // Return "prod" if it's a production domain, otherwise return "non-prod".
   if (isProduction) {
-    return "Prod";
+    return "prod";
   } else {
-    return "Non-Prod";
+    return "non-prod";
   }
 }
